@@ -4,6 +4,10 @@ calculator.py
 
 One function per operation, in order.
 """
+#https://github.com/OTrepse/Lab10-GustavoT-RyanE
+# Partner 1 = Gustavo Torres
+# Partner 2 = Ryan Esperto
+
 import math
 
 def add(a, b):
