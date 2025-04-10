@@ -11,3 +11,26 @@ def add(a, b):
 #comment
 
 
+import math
+
+def add(a,b):
+    return a+b
+def substract(a,b):
+    return a-b
+def multiply(a,b):
+    return a*b
+def divide(a,b):
+    try:
+        return b/a
+    except ZeroDivisionError:
+        raise ZeroDivisionError
+def logarithm(a,b):
+    try:
+        return math.log(a,b)
+    except ValueError:
+
+
+
+
+
+def exponent(a,b):
