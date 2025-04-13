@@ -1,3 +1,6 @@
+#https://github.com/OTrepse/Lab10-GustavoT-RyanE
+# Partner 1 = Gustavo Torres
+# Partner 2 = Ryan Esperto
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -5,16 +8,14 @@ calculator.py
 One function per operation, in order.
 """
 
-#https://github.com/OTrepse/Lab10-GustavoT-RyanE
-# Partner 1 = Gustavo Torres
-# Partner 2 = Ryan Esperto
+
 
 import math
 
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -25,7 +26,7 @@ def div(a, b):
         raise ValueError
     return a / b
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or a == 1:
         raise ValueError
     if b <= 0:
