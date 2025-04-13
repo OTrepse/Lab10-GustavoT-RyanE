@@ -16,9 +16,9 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    if b == 0:
+    if a == 0:
         raise ValueError
-    return a / b
+    return b / a
 
 def log(a, b):
     if a <= 0 or a == 1:
@@ -30,10 +30,4 @@ def log(a, b):
 def exp(a, b):
     return a ** b
 
-def hypotenuse(a, b):
-    return math.hypot(a, b)
 
-def square_root(x):
-    if x < 0:
-        raise ValueError("Cannot take square root of negative number")
-    return math.sqrt(x)
