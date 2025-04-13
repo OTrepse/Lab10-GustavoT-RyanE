@@ -1,9 +1,10 @@
-import unittest
-from calculator import *
-
 #https://github.com/OTrepse/Lab10-GustavoT-RyanE
 # Partner 1 = Gustavo Torres
 # Partner 2 = Ryan Esperto
+import unittest
+from calculator import *
+
+
 
 
 class TestCalculator(unittest.TestCase):
